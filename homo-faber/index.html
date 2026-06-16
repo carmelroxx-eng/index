@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOMO FABER — אוסף הארכאולוגיה</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav id="nav">
+    <span id="nav-logo" onclick="navigate('#/')">האדם היוצר</span>
+    <div id="nav-links">
+      <span class="nav-link" data-route="home" onclick="navigate('#/')">תרבויות</span>
+      <span class="nav-link" data-route="archive" onclick="navigate('#/archive')">ציר זמן</span>
+      <span class="nav-link" data-route="about" onclick="navigate('#/about')">אודות</span>
+    </div>
+  </nav>
+
+  <main id="app"></main>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
